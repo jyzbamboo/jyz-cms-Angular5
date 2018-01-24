@@ -27,5 +27,5 @@ RewriteRule ^ - [L]
 RewriteRule ^ index.html [L]  
 ```
 
-##关于本项目
+## 关于本项目
 有关问题和建议可以发送邮箱联系作者jyz_005@163.com，谢谢~
