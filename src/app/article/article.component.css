@@ -1,0 +1,8 @@
+.layui-container{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+body {
+    background: #eee;
+    color: #444;
+}

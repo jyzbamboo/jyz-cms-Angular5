@@ -1,0 +1,117 @@
+.content-block {
+    padding: 15px;
+    margin-bottom: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+}
+.post {
+    margin: 10px 1px;
+}
+.post h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 140%;
+}
+.post-link a {
+    color: black;
+}
+@media(max-width: 768px){
+    .list-cate{
+        display:none;
+    }
+}
+.list-ul li{
+    padding: 0px 0px 5px 5px;
+    width: 24.3%;
+    float: left;
+    text-align: center;
+}
+.list-ul li a {
+    background: #fff;
+    display: block;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+    padding: 8px 0;
+}
+.list-ul li img{
+    display: block;
+    width: 60%;
+    border: 0;
+    margin: 0 auto 2px auto;
+}
+.service-table tr td{
+    background-image: url(../../../assets/images/service-icon.png);
+    background-position: 8px center;
+    background-repeat: no-repeat;
+    padding: 9px 15px 9px 31px;
+    background-size: 16px;
+}
+.container {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.select-title{
+    font-size: 15px;
+}
+.select-title .city{
+    float:right;
+}
+.select-city .layui-show{
+    font-size: 14px;
+}
+.layui-colla-title{
+    font-size: 15px;
+    margin: 0;
+    height:auto;
+}
+.select-city-title{
+    padding: 0 15px 0 20px;
+    background-color:white;
+}
+ .city-a{
+    margin: 0 1.8% 2% 1.9%;
+    width: 28.5%;
+}
+.yzs-apply-a{
+    background-color:white;
+    color: #009688;
+    border-color: #009688;
+    padding: 0 50px;
+}
+.yzs-detail-p-image{
+    width:16px;
+    margin-right: 8px;
+}
+.yzs-title-image{
+    width:21px;
+    margin-right: 8px;
+}
+.yzs-select-city-icon{
+    margin-left: 5px;
+}
+.service-table a{
+    color: rgb(102, 102, 102);
+}
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+a {
+    color:#009688;
+}
+a:hover {
+    text-decoration: none;
+}
+.layui-colla-content{
+    display: block;
+}
+.city-a{
+    color:#555;
+}
+.layui-colla-item {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #e6e6e6;
+}

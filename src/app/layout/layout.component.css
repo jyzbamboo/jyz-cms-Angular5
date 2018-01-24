@@ -1,0 +1,156 @@
+.main-container {
+    margin-top: 56px;
+    margin-left: 235px;
+    padding: 15px;
+    -ms-overflow-x: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    overflow: hidden;
+}
+@media screen and (max-width: 992px) {
+    .main-container {
+        margin-left: 0px !important;
+    }
+}
+.margin-top-container{
+    padding-top: 2%;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .container {
+        width: 970px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.index-total{
+    background-color:#333333;
+    height:105%;
+}
+.picScroll-top {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.picList li img{
+    width:100%;
+    height:auto;
+}
+.picList li .pic a{
+    height:100%;
+}
+.picScroll-top{
+    position:relative;
+    width:100%;
+}
+.picList li{
+    height: 100%;
+    background-color: white;
+}
+.picList li .detail{
+    width:66%;
+    display: inline-block;
+    padding-left:2%;
+    vertical-align: top;
+}
+.picList li .detail .title{
+    color:#079ED2;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+.picList li .detail .time{
+    color: #B0B0B0;
+    margin-bottom: 1%;
+}
+.picList .pic{
+    width: 30%;
+    height:auto;
+    display: inline-block;
+}
+
+.picList li .detail .title{
+    font-size: 2rem;
+    color: #009688;
+}
+.picList li .detail .title a{
+    color: #009688;
+}
+.picList li .detail .time{
+    font-size: 0.3rem;
+}
+.picList li .detail p{
+    font-size: 1.3rem;
+    color: #666;
+    margin-bottom: 0px;
+}
+
+
+.title-line{
+    display: inline-block;
+    width: 0.20rem;
+    height: 1.5rem;
+    background-color: #009688;
+    position: relative;
+    top: 0.1rem;
+    margin-right: 0.6rem;
+}
+@media screen and (min-width: 800px) {
+    .slide-title p{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 580px) {
+    .slide-title p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .slide-title p{
+        font-size: 1rem;
+    }
+    .title-line {
+        top: 0.3rem;
+        margin-right: 0.3rem;
+    }
+}
+.slide-title p{
+    color:white;
+    display: inline-block;
+}
+@media screen and (max-width: 580px) {
+    .picList li .detail .title{
+        font-size: 0.5rem;
+    }
+    .picList li .detail p{
+        font-size: 0.28rem;
+    }
+    .slide-title p{
+        font-size: .4rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .picList li .detail .title{
+        font-size: 0.35rem;
+    }
+    .picList li .detail p{
+        font-size: 0.22rem;
+    }
+    .slide-title p{
+        font-size: .3rem;
+    }
+}

@@ -1,0 +1,26 @@
+.layui-container{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.content-block {
+    padding: 15px;
+    margin-bottom: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+}
+.post {
+    margin: 10px 1px;
+}
+.post h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 140%;
+}
+.post-link a {
+    color: black;
+}
+@media(max-width: 768px){
+    .list-cate{
+        display:none;
+    }
+}
