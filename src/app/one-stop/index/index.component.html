@@ -522,7 +522,7 @@
     </ngb-tab>
     <ngb-tab [disabled]="true">
         <ng-template ngbTabTitle>
-            <a href="/one-stop/select-region?group=default" class="select-city-a">
+            <a href="/one-stop/select-region?group=default" class="select-city-a" (click)="goSelectCity()">
             选择城市                    <i class="layui-icon yzs-select-city-icon">&#xe61a;</i>
             </a>
         </ng-template>
